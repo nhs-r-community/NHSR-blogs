@@ -1,11 +1,11 @@
 
 # NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>
 
-This repository exists to publish and hold `Rmarkdown` files, and other
-supporting files, for blog posts on the NHS-R Commuity website:
+<br> This repository exists to publish and hold `Rmarkdown` files, and
+other supporting files, for blog posts on the NHS-R Commuity website:
 <https://nhsrcommunity.com/>
 
-<br><br>
+<br>
 
 **To contribute, please:**
 
