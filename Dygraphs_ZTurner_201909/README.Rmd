@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-# Dygraphs (nteractive charts)
+# Dygraphs (Interactive charts)
 
 ### Zoë Turner 
 ___Senior Information Analyst at Nottinghamshire Healthcare NHS Trust.___
