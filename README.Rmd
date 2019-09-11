@@ -4,25 +4,8 @@ output: github_document
 
 # NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>
 
-This repository exists to publish and hold `Rmarkdown` files, and other supporting files, for blog posts on the NHS-R Commuity website: https://nhsrcommunity.com/
+This R Markdown relates to the following published blog on NHS-R: https://nhsrcommunity.com/blog/count-of-working-days-function/
 
 <br><br>
 
 
-__To contribute, please:__
-
-* Fork the repository.
-* Add your files in your local repository and push it to Github.
-* Create a pull request on this repository, detailing your submission and we will review it before merging.
-
-<br>
-___If uploading a dataset, the contributor certifies that:___
-
-* They are the data owner, or are authorised to republish the dataset in question.
-* The dataset does not contain real patient-level data.
-* Where based on patient data, the contributor takes full responsibility for sharing the data and certifies that. it is has been processed, anonymised, aggregated or otherwise protected in accordance with all legal requirements under General Data Protection Regulation (GDPR), or other relevant legislation.
-
-
-Please note that the 'NHSR_blogs' project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md).
-By contributing to this project, you agree to abide by its terms.
