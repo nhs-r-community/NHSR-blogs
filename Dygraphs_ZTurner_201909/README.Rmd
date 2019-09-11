@@ -1,0 +1,11 @@
+---
+output: github_document
+---
+
+# NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>
+
+This R Markdown relates to the following published blog on NHS-R: https://nhsrcommunity.com/blog/dygraphs/
+
+<br><br>
+
+
