@@ -2,10 +2,28 @@
 output: github_document
 ---
 
-# NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>
+# Import ONS Spreadsheets
 
-This R Markdown relates to the following published blog on NHS-R: https://nhsrcommunity.com/blog/format-ons-spreadsheet/
+### Zoë Turner 
+___Senior Information Analyst at Nottinghamshire Healthcare NHS Trust.___
 
-<br><br>
+__15/03/2019__
 
+
+
+[
+
+A blog to explain getting ONS data files directly from the website using the URL and then manipulating it from wide form data to long form using dplyr and janitor packages in R.
+
+Files in this folder are:
+
+- __ImportONSSpreadsheets.Rmd:__ An RMarkdown document
+
+]
+
+
+
+
+Find the blog post at:
+https://nhsrcommunity.com/blog/format-ons-spreadsheet/ 
 
