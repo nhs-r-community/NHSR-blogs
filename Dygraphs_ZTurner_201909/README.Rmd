@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+# Dygraphs (Interactive charts)
+
+### Zoë Turner 
+___Senior Information Analyst at Nottinghamshire Healthcare NHS Trust.___
+
+__04/08/2019__
+
+
+
+[
+
+A blog to explain a chart used in the Nottinghamshire Healthcare NHS Foundation Trust mortality surveillance comparing Trust patient deaths to ONS Provisionally Registered deaths using the dygraphs package.
+
+Files in this folder are:
+
+- __Dygraphs blog.Rmd:__ An RMarkdown document
+
+]
+
+
+
+
+Find the blog post at:
+https://nhsrcommunity.com/blog/dygraphs/ 
+
