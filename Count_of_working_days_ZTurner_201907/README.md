@@ -10,13 +10,11 @@ Trust.***
 
 \[
 
-Insert a brief description of blog and each file in the folder, e.g.
-This blog is about blah…
+How to create a very simple function using the example of how to calculate the daily cost of a season ticket using working days, taking away paid holidays and taking away any days worked from home.
 
 Files in this folder are:
 
-  - **File1:** An RMarkdown document showing a thing
-  - **File2:** A R script function to do another thing
+- __WorkingDaysFunction.Rmd:__ An RMarkdown document
 
 \]
 
