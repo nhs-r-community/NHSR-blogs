@@ -2,13 +2,7 @@
 output: github_document
 ---
 
-# NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>
+# NHS-R Community Blog posts <a href='https://nhsrcommunity.com/'><img src='man/figures/logo.png' align="right" height="80" /></a>  
 
-This R Markdown relates to the following published blog on NHS-R: https://nhsrcommunity.com/blog/count-of-working-days-function/
-
-<br>
-This repository exists to publish and hold `Rmarkdown` files, and other supporting files, for blog posts on the NHS-R Commuity website: https://nhsrcommunity.com/
-
-<br>
-
+This repository exists to publish and hold `Rmarkdown` files, and other supporting files, for blog posts on the NHS-R Community website: https://nhsrcommunity.com/
 
