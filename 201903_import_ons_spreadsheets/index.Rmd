@@ -1,8 +1,6 @@
 ---
 title: "Format ONS spreadsheet"
-author: "Zoe Turner"
-date: "7 March 2019"
-output: html_document
+output: hugodown::md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +13,7 @@ library(openxlsx)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#Background
+# Background
 
 A Public Health consultant colleague Ian Bowns (@IantheBee) created a report to monitor mortality within the Trust and he used the ONS weekly provisional data for the East Midlands to compare the pattern and trends of deaths over time. This involves downloading a file from: 
 
@@ -24,7 +22,7 @@ https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/dea
 
 which is updated weekly. Once a month I, manually, add numbers from this to another spreadsheet to be imported to R for the overall analysis.
 
-#Downloaded file formats
+# Downloaded file formats
 
 You may be familiar with ONS and other NHS data spreadsheets format and if you are not, here are some of the issues:
 
@@ -44,7 +42,7 @@ Given these difficulties there is great temptation, as happened with this, to ju
 
 The solution is, always, to automate and tools like Power Pivot in Excel or SSIS could work but as the final report is in R it makes sense to tackle this formatting in R and this is the result...
 
-#Import file
+# Import file
 
 For this you can either save the file manually or use the following code within R. Save it to the same place where the code is running and you should see the files in the bottom right window under the tab 'Files'. The best way to do this is using project and opening up the script within that project.
 
@@ -74,7 +72,7 @@ DeathsImport <- read_excel("DeathsDownload.xls ",
 
 ```
 
-#Formatting the data
+# Formatting the data
 
 The next code creates a list that is used in the later code that is similar to the SQL IN but without typing out the list *within* the code for example:
 
@@ -232,6 +230,6 @@ write.xlsx(DeathsImport, 'ImportProvisionalDeaths.xlsx')
 
 If you haven't used a project (which is really the best way to work) this will probably save in some obscure C: drive that you'll see in the bottom left 'Console' just under the tab names for 'Console' and 'Terminal'. Using projects means you set the pathway and that will mean the file saves in the same place and will also appear in the bottom *right* panel under 'Files'.
 
-#Feedback
+# Feedback
 
 I'm pretty early on in my journey in R and many of my colleagues still haven't started yet so I'm throwing this out there so everyone can see it, newbies and old hands alike. If you spot anything, can explain anything further, need more explanation or can offer any alternatives to what I've done please please feel free to comment. 
